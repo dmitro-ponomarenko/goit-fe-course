@@ -5,23 +5,27 @@
   box-sizing: border-box;
 }
 .wrapper {
+  text-align: center;
   width: 1200px;
 }
 .m {
+  margin-bottom: 45px;
+  text-align: center;
   width: 1200px;
 }
 .box {
   width: 417px;
-  height: 500px;
-  margin: 0px 25px;
+  margin: 35px 25px;
   display: inline-block;
+  margin-bottom: 65px;
 }
 
 .sp {
   list-style: none;
   margin-top: 10px;
   margin-bottom: 20px;
-  padding-left: 120px;
+  margin-left: 50px;
+  margin-right: 40px;
   display: inline-block;
 }
 .vs {
@@ -33,6 +37,7 @@ a:hover {
   color: blue;
 }
 .l {
+  text-align: left;
   margin-top: 10px;
   margin-bottom: 20px;
   color: dimgray;
@@ -43,7 +48,7 @@ a:hover {
   margin-bottom: 20px;
 }
 .cent {
-  margin-left: 410px;
+  text-align: center;
 }
 
 .butt {
@@ -52,4 +57,7 @@ a:hover {
   margin: 10px;
   text-decoration: none;
   color: black;
+}
+p {
+  text-align: left;
 }
