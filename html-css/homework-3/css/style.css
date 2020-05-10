@@ -4,60 +4,74 @@
   font-size: 100%;
   box-sizing: border-box;
 }
-.wrapper {
-  text-align: center;
-  width: 1200px;
-}
-.m {
-  margin-bottom: 45px;
-  text-align: center;
-  width: 1200px;
-}
-.box {
-  width: 417px;
-  margin: 35px 25px;
-  display: inline-block;
-  margin-bottom: 65px;
-}
 
-.sp {
-  list-style: none;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 40px;
+.m{
+  width: 1000px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.m1{
   display: inline-block;
 }
-.vs {
-  text-decoration: none;
-  font-size: 100%;
-  color: black;
+.sp{
+  list-style: none; 
+  display: inline-block; 
+  margin-right: 120px;
 }
-a:hover {
+.vs{
+  color: dimgray;
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 24px; 
+  text-transform: uppercase; 
+  text-decoration: none;
+}
+.vs:hover {
   color: blue;
 }
-.l {
+img{
+  width: 100%;
+}
+.wrapper
+{
+display: inline-block;
+text-align: center;
+width: 1000px;
+}
+.box{
+  width: 420px; 
+  margin: 0 auto; 
   text-align: left;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  color: dimgray;
+  display: inline-block; 
+  margin-bottom: 130px;
+  margin-right:60px;
 }
-.pf {
-  font-size: 200%;
-  text-align: justify;
-  margin-bottom: 20px;
+.l{
+  color: dimgray
+  font-size 14px; 
+  font-weight: 300;
+  text-transform: uppercase;
 }
-.cent {
-  text-align: center;
+.pf{
+  font-size: 30px; 
+  font-weight: 400;
 }
-
-.butt {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-  text-decoration: none;
-  color: black;
+.text{
+font-size: 14px; 
+font-weight: 400; 
+line-height: 24px;
 }
-p {
-  text-align: left;
+.kn{
+  width: 163px; 
+  margin: -70px 368px;
+}
+.button{
+  width: 164px; 
+  height: 60px; 
+  border: 1px solid dimgray; 
+  font-size: 20px; 
+  font-weight: 400; 
+  line-height: 24px; 
+  margin-bottom: 50px;
+  background-color: white;
 }
