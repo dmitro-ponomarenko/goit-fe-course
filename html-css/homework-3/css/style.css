@@ -47,16 +47,19 @@ width: 1000px;
   margin-right:60px;
 }
 .l{
+  margin-top: 32px;
   color: dimgray
   font-size 14px; 
   font-weight: 300;
   text-transform: uppercase;
 }
 .pf{
+  margin-top: 32px;
   font-size: 30px; 
   font-weight: 400;
 }
 .text{
+margin-top: 40px;  
 font-size: 14px; 
 font-weight: 400; 
 line-height: 24px;
