@@ -18,12 +18,14 @@
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: -0.6px;
+    font-family: "Roboto", sans-serif;
   }
   
   .logo::first-letter {
     color: #1abc9c;
     font-weight: 900;
     letter-spacing: -0.6px;
+    font-family: "Roboto", sans-serif;
   }
   
   .section {
@@ -63,6 +65,7 @@
     line-height: 11px;
     letter-spacing: -0.28px;
     text-transform: uppercase;
+    font-family: "Open Sans";
   }
   
   .link:hover {
@@ -73,6 +76,7 @@
     letter-spacing: -0.28px;
     line-height: 11px;
     text-transform: uppercase;
+    font-family: "Open Sans";
   }
   .main-box {
     margin: 0 auto;
@@ -87,6 +91,7 @@
     text-transform: uppercase;
     letter-spacing: -0.96px;
     margin: 0 0 92px 0;
+    font-family: "Roboto";
   } 
   .up-h2::after {
     content: "";
@@ -96,6 +101,7 @@
     margin-top: 33px;
     width: 164px;
     background-color: #1abc9c;
+    font-family: "Roboto";
   }
   .image-box {
     height: 280px;
@@ -124,6 +130,8 @@
     letter-spacing: -0.36px;
     margin: 5px 5px 5px 10px;
     padding: 0;
+    font-family: "Roboto";
+
   }
   .price {
     height: 100%;
@@ -137,6 +145,7 @@
     text-transform: uppercase;
     letter-spacing: -0.36px;
     margin: 0px 0px 0px 0px;
+    font-family: "Roboto";
   }
   .main-section {
     padding: 102px 0 106px 0;
@@ -150,6 +159,7 @@
     background-color: #e9f0fd;
     text-align: center;
     margin-bottom: 30px;
+    font-family: "Roboto";
   }
   
   .main-list__main-item:hover .clothes{
@@ -177,6 +187,7 @@
     text-transform: uppercase;
     letter-spacing: -0.96px;
     margin: 0 0 65px 0;
+    font-family: "Open Sans", sans-serif;
   }
 
   .down-h2::after {
@@ -237,4 +248,5 @@
     background-color: #4ec6ab;
     padding: 17px 40px;
     border-radius: 2px;
+    font-family: "Open Sans", sans-serif;
   }
