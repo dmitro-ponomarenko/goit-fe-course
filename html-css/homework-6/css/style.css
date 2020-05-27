@@ -126,22 +126,22 @@
     background-repeat: no-repeat;
   }
   .service-item:nth-child(1n){
-    background-image: url(/html-css/homework-6/img/clock.png);  
+    background-image: url(../img/clock.png);  
   }
   .service-item:nth-child(2n){
-    background-image: url(/html-css/homework-6/img/firstimg.png);  
+    background-image: url(../img/firstimg.png);  
   }
   .service-item:nth-child(3n){
-    background-image: url(/html-css/homework-6/img/pc.png);  
+    background-image: url(../img/pc.png);  
   }
   .service-item:nth-child(4n){
-    background-image: url(/html-css/homework-6/img/book.png);  
+    background-image: url(../img/book.png);  
   }
   .service-item:nth-child(5n){
-    background-image: url(/html-css/homework-6/img/img.png);  
+    background-image: url(../img/img.png);  
   }
   .service-item:nth-child(6n){
-    background-image: url(/html-css/homework-6/img/home.png);  
+    background-image: url(../img/home.png);  
   }
   .service-item__box {
     width: 279px;
