@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amiri Regular'), local('Amiri-Regular'),
+       url(../fonts/amiri-v13-latin-regular.woff2) format('woff2'), /* Super Modern Browsers */
+       url(../fonts/amiri-v13-latin-regular.woff) format('woff'), /* Modern Browsers */
+
+}
+@font-face {
+  font-family: 'Wisdom Script Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Wisdom Script Regular'), url(../fonts/Wisdom\ Script\ AJ.woff) format('woff');
+  }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body {
+  box-sizing: border-box;
+  width:1400px;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+/*HEADER*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+  .logo{
+      color: #fed136;
+      font-family: "Wisdom Script Regular";
+      font-size: 24px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-weight: lighter;
+  }
+.menu-list {
+  display: flex;
+}
+.menu-item {
+margin-right: 40px;
+list-style-type: none;
+}
+a{
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  color: #222222;
+  text-decoration: none;
+}
+.menu-item:last-child{
+  margin-right: 0;
+}
+a:hover{
+  color: #fed136;
+}
+/*MAIN*/
+.service {
+  padding-bottom: 100px;
+}
+  .title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  line-height: 75px;
+}
+.title-p{
+  text-align: center;
+  font-family: "Amiri";
+  font-style: italic;
+  font-size: 16px;
+  color: #777777;
+  margin-bottom: 77px;
+}
+.main__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+}
+
+.main__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 274px;
+}
+
+.main__list-item::before {
+  content: "";
+  display: block;
+  width: 68px;
+  height: 68px;
+  border: 3px solid #fed136;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.main__list-item:nth-child(1)::before {
+  background-image: url("../img/rec.png");
+}
+
+.main__list-item:nth-child(2)::before {
+  background-image: url("../img/comp.png");
+}
+
+.main__list-item:nth-child(3)::before {
+  background-image: url("../img/Lock.png");
+}
+
+.list-item__text {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.35px;
+}
+
+/*FOOTER*/
+.footer-container{
+    width: 1400px ;
+}
+.form_font {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #222222;
+  font-weight: bold;
+}
+.contact-form {
+  background: url(../img/Map_Image.png);
+  background-color: #222222;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 120px;
+  padding-bottom: 115px;
+  z-index: 10;
+}
+.contact-us{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Montserrat";
+}
+.contact-us-p{
+  text-align: center;
+  font-family: "Amiri";
+  font-style: italic;
+  font-size: 16px;
+  color: #777777;
+  margin-bottom: 77px;
+}
+.cont-form{
+  width: 940px;
+  margin: 0 auto;
+}
+.form-input-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.input_info {
+  width: 454px;
+  height: 54px;
+  border-radius: 5px;
+  padding: 10px;
+}
+textarea {
+  width: 455px;
+  height: 210px;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+  overflow: auto;
+}
+textarea::placeholder{
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+}
+.button {
+  padding: 22px 30px;
+  background-color: #fed136;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+
+.input_item {
+  margin-bottom: 24px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.input_item:last-child {
+  margin-bottom: 0;
+}
+.validation:valid {
+  outline-color: rgb(5, 131, 5);
+}
+.validation:invalid {
+  outline-color: red;
+}
