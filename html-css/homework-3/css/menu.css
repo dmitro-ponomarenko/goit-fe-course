@@ -4,6 +4,10 @@
   font-family: "Playfair Display", serif;
   font-size: 100%;
 }
+header{
+  width: 900px;
+  margin: 0 auto;
+}
 .m {
   background-color: rgb(99, 165, 240);
   text-align: center;

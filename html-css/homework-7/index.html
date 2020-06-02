@@ -67,21 +67,17 @@
         <p class="contact-us-p">Proin iaculis purus consequat sem cure.</p>
         <form  class="cont-form" id="contact_form">
             <div class="form-input-wrap">
-                <ul>
-                    <li class="input_item">
-                        <input class="input_info form_font validation" type="text" id="input_name" name="name"
+                <div class="input-wrap">
+                    <input class="input_info form_font validation" type="text" id="input_name" name="name"
                             placeholder="Your name*" required>
-                    </li>
-                    <li class="input_item">
-                        <input class="input_info form_font validation" type="email" id="input_email" name="email"
+                    <input class="input_info form_font validation" type="email" id="input_email" name="email"
                             placeholder="Your e-mail*" required>
-                    </li>
-                    <li class="input_item">
-                        <input class="input_info form_font validation" type="text" id="input_subject" name="subject" placeholder="Subject">
-                    </li>
-                </ul>
+                    <input class="input_info form_font validation" type="text" id="input_subject" name="subject" placeholder="Subject">
+                </div>
+                <div>
                 <textarea class="form_font validation" name="your_text" id="message_text" cols="30" rows="10"
                     placeholder="Your message*" required></textarea>
+                </div>        
             </div>
             <input class="button" type="submit" id="send_message_button" value="Send Message">
         </form>
