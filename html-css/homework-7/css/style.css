@@ -147,7 +147,9 @@ input {
 .main__list-item:nth-child(3)::before {
   background-image: url("../img/Lock.png");
 }
-
+.list-item__title{
+  font-family: "Montserrat";
+}
 .list-item__text {
   font-family: "Roboto Slab";
   font-size: 14px;
@@ -161,6 +163,7 @@ input {
   font-size: 14px;
   color: #222222;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .contact-form {
   padding-top: 100px;
@@ -205,9 +208,6 @@ input {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 30px;
-}
-.textarea-wrap{
-
 }
 textarea {
   width: 455px;
