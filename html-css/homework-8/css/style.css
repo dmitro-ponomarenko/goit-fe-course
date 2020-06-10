@@ -179,7 +179,7 @@ h3 {
   background-color: rgb(255, 78, 80);
 }
 
-.icon-flask::after {
+.icon-prob::after {
   background-image: url("../img/prob.png");
   background-color: rgb(255, 165, 7);
 }
