@@ -54,6 +54,7 @@ h3 {
   border: 2px solid rgb(255, 78, 80);
   border-radius: 25px;
   text-align: center;
+  text-decoration: none;
 }
 
 .container {
@@ -126,6 +127,7 @@ h3 {
 .dreams__link:hover {
   color: rgb(255, 78, 80);
   background-color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .partners {
@@ -215,4 +217,5 @@ h3 {
 .team__link:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(255, 78, 80);
+  text-decoration: none;
 }
