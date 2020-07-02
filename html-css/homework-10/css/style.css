@@ -80,7 +80,7 @@ body {
     padding-bottom: 10px;
 }
 
-.page-nav__list {
+.page-header__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -295,12 +295,12 @@ body {
             justify-content: space-between;
 }
 
-.team-list__item {
+.team-list-item {
     -ms-flex-preferred-size: 380px;
         flex-basis: 380px;
 }
 
-.team-list__item--background {
+.team-list-item__background {
     width: 380px;
     height: 470px;
     position: absolute;
@@ -308,11 +308,11 @@ body {
     z-index: -1;
 }
 
-.team-list__item-img {
+.team-list-item__img {
     margin-bottom: 30px;
 }
 
-.team-list__item-over {
+.team-list-item__over {
     position: absolute;
     display: none;
     -webkit-box-pack: center;
@@ -334,7 +334,7 @@ body {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
 }
 
-.team-list__item-img {
+.team-list-item__img {
     -webkit-transition: -webkit-transform 0.2s ease-out;
     transition: -webkit-transform 0.2s ease-out;
     -o-transition: transform 0.2s ease-out;
@@ -342,7 +342,7 @@ body {
     transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
 }
 
-.team-list__item:hover .team-list__item-over {
+.team-list-item:hover .team-list-item__over {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -351,7 +351,7 @@ body {
             transform: translate(-10px, -10px);
 }
 
-.team-list__item:hover .team-list__item-img {
+.team-list-item:hover .team-list-item__img {
     -webkit-transform: translate(-10px, -10px);
         -ms-transform: translate(-10px, -10px);
             transform: translate(-10px, -10px);
@@ -361,22 +361,22 @@ body {
     padding-left: 0;
 }
 
-.team-list__item-name,
-.team-list__item-position {
+.team-list-item__name,
+.team-list-item__position {
     margin: 0;
     text-align: center;
 }
 
-.team-list__item-name {
+.team-list-item__name {
     font-size: 14px;
     line-height: 17px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 12px;
 }
 
-.team-list__item-position {
+.team-list-item__position {
     font-size: 15px;
     line-height: 18px;
     font-family: 'Roboto', sans-serif;
