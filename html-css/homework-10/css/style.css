@@ -238,14 +238,14 @@ body {
     margin: 0;
 }
 
-.section__title {
+.service-section__title {
     font-size: 24px;
     line-height: 29px;
     font-family: 'Kaushan Script', cursive;
     margin-bottom: 62px;
 }
 
-.section__title::after {
+.service-section__title::after {
     content: "";
     display: block;
     height: 3px;
@@ -255,11 +255,11 @@ body {
     margin-top: 40px;
 }
 
-.section__title-p {
+.service-section__title-p {
     margin: 0;
 }
 
-.section__title-span {
+.service-section__title-span {
     margin-top: 18px;
     display: block;
     font-size: 30px;
